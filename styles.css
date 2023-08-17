@@ -1,4 +1,28 @@
 /* ====================
+##. Top Bar
+==================== */
+.top-bar {
+  background-color: #F06524; /* Background color of the top bar */
+  color: #fff; /* Text color */
+  padding: 10px 0; /* Padding for top and bottom */
+}
+
+.top-bar p {
+  margin: 0; /* Reset margin for the paragraph */
+  text-align: left; /* Center the text */
+  padding-left: 20px;
+  font-size: 1rem;
+}
+
+/* ====================
+##. Nav Bar Area
+==================== */
+.navbar {
+  background-color: white; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+/* ====================
 ##. Hero Area
 ==================== */
 .hero {
@@ -33,7 +57,7 @@
 
 .hidden {
   opacity: 0;
-  transition: all 1s;
+  transition: all 2s;
 }
 
 .show {
