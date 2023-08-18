@@ -1,17 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/main.css">
   <link rel="icon" type="image/x-icon" href="images/sun-neuro-pa-favicon.ico" />
-  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
-  <script defer src="scroll.js"></script>
+  <script defer src="js/bootstrap.bundle.min.js"></script>
+  <script defer src="js/scroll.js"></script>
   <title>Sun Neuro PA</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
@@ -24,63 +22,74 @@
   <meta name="twitter:url" content="">
   <meta name="twitter:card" content="">
 </head>
+
 <body>
   <!--Top Bar-->
   <div class="top-bar">
-    <div >
-      <p><i class="bi bi-telephone-fill"></i> 915-303-7548</p>
-    </div>
+    <div>
+      <p><i class="bi bi-telephone-fill"></i> &nbsp; <a href="tel:9153037548" class="link-light">(915) 303-7548</a></p>    </div>
   </div>
   <!--// End of Top Bar-->
-  
-  <!--Navbar-->
-  <nav class="navbar navbar-expand-md navbar-light sticky-top">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="index.html"><img src="images/Sun-Neuro-PA-logo.png" alt="Sun Neuro PA logo"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbartoggler" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
 
-        <div class="collapse navbar-collapse" id="navbartoggler">
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img src="images/Sun-Neuro-PA-logo.png" alt="Sun Neuro PA logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbartoggler"
+        aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbartoggler">
         <ul class="navbar-nav ms-auto mb-2 mb-md-0">
-            <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">HOME</a></li>
-            <li class="nav-item"><a class="nav-link" href="pages/about.html">ABOUT</a></li>             
-            <li class="nav-item"><a class="nav-link" href="pages/doctor.html">DOCTOR</a></li>
-            <li class="nav-item"><a class="nav-link" href="pages/services.html">SERVICE</a></li>
-            <li class="nav-item"><a class="nav-link" href="pages/contact.html">CONTACT</a></li>
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">HOME</a></li>
+          <li class="nav-item"><a class="nav-link" href="pages/about.html">ABOUT</a></li>
+          <li class="nav-item"><a class="nav-link" href="pages/doctor.html">DOCTOR</a></li>
+          <li class="nav-item"><a class="nav-link" href="pages/services.html">SERVICE</a></li>
+          <li class="nav-item"><a class="nav-link" href="pages/contact.html">CONTACT</a></li>
         </ul>
-        </div>
+      </div>
+      <div class="btn-group btn-group-sm position-absolute bottom-0 start-50 translate-middle-x pb-3" role="group"
+        aria-label="Radio button group">
+        <input type="radio" class="btn-check" name="radioGroup" id="radio1" autocomplete="off" checked>
+        <label class="btn btn-outline-primary" for="radio1">English</label>
+
+        <input type="radio" class="btn-check" name="radioGroup" id="radio2" autocomplete="off">
+        <label class="btn btn-outline-primary" for="radio2">Español</label>
+      </div>
     </div>
   </nav>
   <!--//Navbar-->
 
-<!--Hero Section-->
-<header class="hero text-white text-center">
-  <!-- Add "padding-top" to create space between navbar and hero section -->
-  <div class="container hero-text">
-    <h1 class="display-3">Sun Neuro PA</h1>
-    <h2 class="lead">Where We Have Enough Spine to Treat Your Back</h2>
-    <a href="pages/contact.html">
-      <button type="button" class="btn btn-primary my-4">Contact Us</button>
-    </a>
-  </div>
-  <img src="images/home-background.jpg" alt="Hero Image" class="hero-image">
-</header>
-<!--//Hero Section-->
+
+
+  <!--Hero Section-->
+  <header class="hero text-white text-center">
+    <!-- Add "padding-top" to create space between navbar and hero section -->
+    <div class="container hero-text">
+      <h1 class="display-3">Sun Neuro PA</h1>
+      <h2 class="lead">Where We Have Enough Spine to Treat Your Back</h2>
+      <a href="pages/contact.html">
+        <button type="button" class="btn btn-primary my-4 text-white">Contact Us</button>
+      </a>
+    </div>
+    <img src="images/home-background.jpg" alt="Hero Image" class="hero-image">
+  </header>
+  <!--//Hero Section-->
 
   <div class="container">
     <div class="row py-5">
       <div class="col-md-6 pb-3 hidden">
         <h2 class="text-center">Premier Neurology Clinic In El Paso</h2>
         <p class="lead text-center">
-          Welcome to Sun Neuro PA, a Premier Neurology Clinic in El Paso. At Sun Neuro PA, we are 
-          dedicated to enhancing the lives of individuals by providing expert neurological services 
-          and personalized treatment plans. Whether you're seeking guidance for migraines, epilepsy, or 
+          Welcome to Sun Neuro PA, a Premier Neurology Clinic in El Paso. At Sun Neuro PA, we are
+          dedicated to enhancing the lives of individuals by providing expert neurological services
+          and personalized treatment plans. Whether you're seeking guidance for migraines, epilepsy, or
           any other neurological concern, we're here to support you every step of the way.
         </p>
         <div class="d-grid justify-content-center pb-3">
           <a href="02-about.html">
-            <button type="button" class="btn btn-primary">Learn More</button>
+            <button type="button" class="btn btn-primary text-white">Learn More</button>
           </a>
         </div>
       </div>
@@ -93,7 +102,10 @@
   <div class="container alternate-2">
     <div class="row py-3">
       <div class="col-md-6 d-flex justify-content-center align-items-center">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/5Smo0ax3ddU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/5Smo0ax3ddU" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
       </div>
       <div class="col-md-6 hidden">
         <h2 class="text-center">Meet Dr. Onuoha</h2>
@@ -107,7 +119,7 @@
 
   <div class="container alternate-1">
     <div class="row py-3">
-      <div class="col-md-6">
+      <div class="col-md-6 hiden">
         <h2 class="text-center">Meet Dr. Onuoha</h2>
         <p class="lead text-center">
           Watch this Youtube Video to learn more about Dr. Onuoha, her education, qualificaions, and motivation
@@ -115,7 +127,10 @@
         </p>
       </div>
       <div class="col-md-6 d-flex justify-content-center align-items-center">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/5Smo0ax3ddU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/5Smo0ax3ddU" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
       </div>
     </div>
   </div>
@@ -124,31 +139,35 @@
   <section class="text-white py-4 text-center" style="background-color: #F06524;">
     <div class="container">
       <h2 class="lead">Interested in Scheduling an Appointment?</h2>
-      <p class="lead">Call <strong>915-303-7548</strong></p>
+      <p class="lead">Call <a href="tel:9153037548" class="link-light">(915) 303-7548</a></p>
     </div>
   </section>
 
   <section class="container py-4 mb-4">
     <div class="row">
       <!-- Office Address -->
-      <div class="col-md-6 d-flex align-items-center justify-content-center">
+      <div class="col-md-6 d-flex align-items-center justify-content-center hidden">
         <div class="text-center">
           <h2>Our Office Address</h2>
           <p class="lead">
             10657 Vista Del Sol Dr. Ste.F
             <br>
-            El Paso, Texas 79935</p>
+            El Paso, Texas 79935
+          </p>
           <a href="https://goo.gl/maps/6wNpKDg5SUGPN8g3A" target="_blank" rel="noopener">Driving Directions</a>
         </div>
       </div>
-  
+
       <!-- Google Maps Embed -->
       <div class="col-md-6">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3392.515292554732!2d-106.34480555807717!3d31.75642881707364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86e744b17bf4f3f3%3A0xcbf437625a5ee278!2sSun%20Neuro%20Pa!5e0!3m2!1sen!2sus!4v1691446617712!5m2!1sen!2sus" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>      
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3392.515292554732!2d-106.34480555807717!3d31.75642881707364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86e744b17bf4f3f3%3A0xcbf437625a5ee278!2sSun%20Neuro%20Pa!5e0!3m2!1sen!2sus!4v1691446617712!5m2!1sen!2sus"
+          width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
     </div>
   </section>
-  
+
   <!--Footer-->
   <footer class="py-3" style="background-color: black;">
     <ul class="nav justify-content-center border-bottom pb-3 mb-3">
@@ -163,4 +182,5 @@
   <!--//Footer-->
 
 </body>
+
 </html>
